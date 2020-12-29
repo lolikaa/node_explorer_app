@@ -6,6 +6,7 @@ body {
 }
 
 
+/* navbar */
 nav {
     position: fixed;
     top: 0;
@@ -27,14 +28,23 @@ a:hover {
 
 
 /* table */
+table {
+    margin-top: 45px;
+}
+
 th {
-    padding: 10px;  
+    line-height: 45px;
     color: rgba( 243, 213, 92, 0.997 );
 }
+
 
 td, th {
     text-align: center; 
     vertical-align: middle;
+}
+
+tr {
+    line-height: 35px;
 }
 
 ion-icon {
@@ -49,7 +59,7 @@ thead {
 
 tbody {
     display: block;
-    height: 300px;
+    height: 400px;
     overflow-y: scroll;
 }
 
@@ -58,7 +68,6 @@ thead, tbody tr {
     table-layout: fixed;
     width: 100%;
 }
-
 
 #custom-scroll::-webkit-scrollbar-track
 {
@@ -77,6 +86,7 @@ thead, tbody tr {
 }
 
 
+/* footer */
 .footer {
     position: absolute;
     bottom: 0;

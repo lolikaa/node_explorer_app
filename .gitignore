@@ -53,6 +53,18 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# linters
+.eslintcache/
+.eslintrc
+.eslintrc.yaml
+.eslintrc.json
+.eslintrc.js
+.stylelintcache/
+.stylelintrc
+.stylelintrc.yaml
+.stylelintrc.json
+.stylelintrc.js
+
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/

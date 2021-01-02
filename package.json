@@ -1,0 +1,25 @@
+{
+  "name": "projzaliczeniowy_monikagabrys",
+  "version": "1.0.0",
+  "description": "web browser explorer aplication",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolikaa/projZaliczeniowy_MonikaGabrys.git"
+  },
+  "keywords": [
+    "explorer"
+  ],
+  "author": "Monika Gabryś",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolikaa/projZaliczeniowy_MonikaGabrys/issues"
+  },
+  "homepage": "https://github.com/lolikaa/projZaliczeniowy_MonikaGabrys#readme"
+}

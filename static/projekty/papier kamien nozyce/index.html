@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|VT323" rel="stylesheet">
+    <title>papier kamień nożyce</title>
+</head>
+
+<body>
+    <header><h1>Kamień Papier Nożyce</h1></header>
+     <div class="container">
+       <div id="scorebox">
+           <span id="comp_score" class="score">0 </span>: <span id="user_score" class="score">0</span>
+           <p id="comp">Computer</p>
+           <p id="player">Player</p>
+       </div>
+       
+       <div class="text">
+           <p id="text_p">Zagraj ze mną :)</p>
+       </div>
+        <div class="row">
+        <div id="papier" class="choices"></div>
+        <div id="kamien" class="choices"></div>
+        <div id="nozyce" class="choices"></div>
+         </div>
+        <div class="box_buttons">
+            <button id="button_papier" class="button" onclick="game(id)">Papier</button>
+            <button id="button_kamień" class="button" onclick="game(id)">Kamień</button>
+            <button id="button_nożyce" class="button" onclick="game(id)">Nożyce</button>
+            
+        </div> <!-- end of choises -->
+        
+        
+        
+        
+    </div> <!-- end of container -->
+   <script src="script.js"></script>
+</body>
+</html>

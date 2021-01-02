@@ -1,0 +1,62 @@
+html {
+    background: url(unicornBackground.jpg);
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+
+body {
+    font-size: 2rem;
+    display: flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    min-width: 50rem;
+    height: 50rem;
+    border: 20px solid #a710ac;
+    box-shadow: 2px 2px 30px red,
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px #5df26a,
+        0 0 10px rgba(0,0,0,0.2);
+    border-radius: 50%;
+    margin: 50px 280px;
+    position: relative;
+    padding: 2rem;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translate(-3px); /* account for the height of the clock hands */
+    background-image: url(emoji.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hand {
+    width: 50%;
+    height: 7px;
+    background: black;
+    position: absolute;
+    top: 50%; 
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second-hand {
+    height: 2px;
+}
+
+.min-hand {
+   height: 5px;
+}
+

@@ -55,7 +55,7 @@ typings/
 
 # linters
 .eslintcache/
-.eslintrc
+.eslintrc.js
 .eslintrc.yaml
 .eslintrc.json
 .eslintrc.js
